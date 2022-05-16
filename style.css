@@ -67,6 +67,9 @@ form {
   display: block;
   margin-top: 0em;
 }
+#mainform {
+  width: 75%;
+}
 .om7nvf {
   padding: 20px;
 }
@@ -135,4 +138,78 @@ form {
   display: -webkit-flex;
   display: flex;
   -webkit-user-select: none;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+.microphone {
+  border-top-right-radius: 32px !important;
+  border-bottom-right-radius: 32px !important;
+  background-color: #fff;
+}
+
+.google {
+  border-top-left-radius: 32px !important;
+  border-bottom-left-radius: 32px !important;
+  background-color: #fff;
+}
+
+.input-group-prepend {
+  margin-right: -2px !important;
+}
+
+.input-group-append {
+  margin-left: -2px !important;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da;
+  outline: 0;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.form-control {
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+.rSk4se {
+  max-height: 92px;
+  position: relative;
+}
+.lnXdpd {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+.LS8OJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.k1zIA {
+  height: 100%;
+  margin-top: auto;
+}
+.T8VaVe {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
+}
+.appbar {
+  color: blue;
+  font-size: 20px;
+  margin: 25px 0px;
 }
